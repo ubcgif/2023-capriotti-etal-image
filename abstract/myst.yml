@@ -1,53 +1,50 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2023-capriotti-etal-image
+  title: Joint inversions with the SimPEG framework
+  description: Talk presented at 2023 Third International Meeting for Applied Geoscience & Energy Expanded Abstracts
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
+    - name: Joseph Capriotti
+      email:  jcapriot@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0003-4762-5377
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Santiago Soler
+      affiliation: ubc
+      email: ssoler@eoas.ubc.ca
+      orcid: 0000-0001-9202-5317
   # banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: IMAGE
+    url: https://library.seg.org/doi/10.1190/image2023-3910791.1
   # license: CC-BY-4.0
   # open_access: true
-  # doi: DOI
-  # date: DATE OF PRESENTATION
+  doi: https://doi.org/10.1190/image2023-3910791.1
+  date: December 14, 2023
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
   # github:
   # bibliography: []
   # keywords:
-  #   - Controlled source electromagnetics (CSEM)
-  #   - Downhole methods
-  #   - Numerical modelling
-  #   - Electrical properties
-  #   - Magnetic properties
+    - joint inversion 
+    - carbon storage 
+    - open-source
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
-    # - title: slides
-    #   url: presentation/SLIDES-NAME.pdf
-    #   static: true
+    - title: pdf
+      url: abstract/presentation/capriotti_2023_inversions.pdf
+      static: true
+    - title: slides
+      url: abstract/presentation/Capriotti_IMAGE_2023.pdf
+      static: true
   # domains: []
