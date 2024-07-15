@@ -34,7 +34,7 @@ project:
     # EM: electromagnetics
   # github:
   # bibliography: []
-  # keywords:
+  keywords:
     - joint inversion 
     - carbon storage 
     - open-source
