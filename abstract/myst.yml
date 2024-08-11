@@ -41,10 +41,10 @@ project:
 site:
   template: article-theme
   actions:
-    - title: pdf
-      url: abstract/presentation/capriotti_2023_inversions.pdf
+    - title: PDF
+      url: presentation/capriotti_2023_inversions.pdf
       static: true
-    - title: slides
-      url: abstract/presentation/Capriotti_IMAGE_2023.pdf
+    - title: Slides
+      url: presentation/Capriotti_IMAGE_2023.pdf
       static: true
   # domains: []
