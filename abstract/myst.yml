@@ -19,7 +19,7 @@ project:
       affiliation: ubc
       email: ssoler@eoas.ubc.ca
       orcid: 0000-0001-9202-5317
-  # banner: banner.png
+  banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
@@ -35,8 +35,8 @@ project:
   # github:
   # bibliography: []
   keywords:
-    - joint inversion 
-    - carbon storage 
+    - joint inversion
+    - carbon storage
     - open-source
 site:
   template: article-theme
